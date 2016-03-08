@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="storylist" extends="base.definition">
+		<put-attribute name="currentPage" value="userstories"></put-attribute>
+		<put-attribute name="title" value="List story"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/story/storyList.jsp"></put-attribute>
+	</definition>
+	<definition name="storyadd" extends="base.definition">
+		<put-attribute name="currentPage" value="userstories"></put-attribute>
+		<put-attribute name="title" value="Add story"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/story/storyAdd.jsp"></put-attribute>
+	</definition>
+	<definition name="storyedit" extends="base.definition">
+		<put-attribute name="currentPage" value="userstories"></put-attribute>
+		<put-attribute name="title" value="Edit story"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/story/storyAdd.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

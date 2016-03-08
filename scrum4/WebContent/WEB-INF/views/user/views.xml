@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="users" extends="base.definition">
+		<put-attribute name="title" value="List users"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/user/usersList.jsp"></put-attribute>
+	</definition>
+	<definition name="useradd" extends="base.definition">
+		<put-attribute name="title" value="Add user"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/user/usersAdd.jsp"></put-attribute>
+	</definition>
+	<definition name="useredit" extends="base.definition">
+		<put-attribute name="title" value="Edit user"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/user/usersAdd.jsp"></put-attribute>
+	</definition>	
+</tiles-definitions>

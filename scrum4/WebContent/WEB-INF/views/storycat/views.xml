@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="storycatlist" extends="base.definition">
+		<put-attribute name="currentPage" value="storycat"></put-attribute>
+		<put-attribute name="title" value="List story cat"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/storycat/storycatList.jsp"></put-attribute>
+	</definition>
+	<definition name="storycatadd" extends="base.definition">
+		<put-attribute name="currentPage" value="storycat"></put-attribute>
+		<put-attribute name="title" value="Add story cat"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/storycat/storycatAdd.jsp"></put-attribute>
+	</definition>
+	<definition name="storycatedit" extends="base.definition">
+		<put-attribute name="currentPage" value="storycat"></put-attribute>
+		<put-attribute name="title" value="Edit story cat"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/storycat/storycatAdd.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
